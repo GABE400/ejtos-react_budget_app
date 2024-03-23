@@ -28,7 +28,7 @@ const ExpenseItem = ({ selectedCurrency, id, name, cost }) => {
   const decreaseAllocation = (name) => {
     const expense = {
       name: name,
-      cost: 1,
+      cost: 10,
     };
 
     dispatch({

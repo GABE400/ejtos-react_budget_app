@@ -15,7 +15,7 @@ const ExpenseList = ({ selectedCurrency }) => {
             <div style={{ color: "blue" }}>Currency is {selectedCurrency}</div>
           </th>
           <th scope='col'>Increase by 10</th>
-          <th scope='col'>Decrease by 01</th>
+          <th scope='col'>Decrease by 10</th>
           <th scope='col'>Delete</th>
         </tr>
       </thead>
